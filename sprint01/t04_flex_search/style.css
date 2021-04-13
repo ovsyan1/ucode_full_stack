@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+input[type="search"]{
+    color: green;
+    cursor: pointer;
+}
+input::-webkit-input-placeholder { color:green; }
+div{
+    display: flex;
+
+}
+div input{
+    flex-basis: 100%;
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+input[type="search"]:hover{
+    color: red;
+}

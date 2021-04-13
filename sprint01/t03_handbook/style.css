@@ -1,0 +1,39 @@
+*{
+    background: rgb(238, 207, 3);
+}
+h1, h3{
+    text-align: center;
+}
+p{
+    background-color: wheat;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)) ;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.grid div{
+    background-color: wheat;
+    text-align: center;
+}
+.grid2 div{
+    background-color: wheat;
+    text-align: center;
+}
+.grid3 div{
+    background-color: wheat;
+    text-align: center;
+}
